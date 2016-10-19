@@ -1,4 +1,44 @@
 body {
-	background: blue;
-
+	padding: 50px;
+	border: 10px solid orange;
+	border-radius: 15px;
+	margin: 50px;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	font-family: "Helvetica", sans-serif; 
 }
+
+h1 {
+	font-family: "Georgia", serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Georgia", serif;
+}
+
+footer {
+	text-align: center;
+}
+
+a:visited {
+	color: red;
+}
+
+#aside {
+	background-color: orange;
+	border-radius: 15px;
+	margin: 25px;
+	padding: 25px;
+}
+
+.type, .overview {
+	font-style: italic;
+}
+
+@media (max-width: 610px) {
+	img {
+		width: 80%;
+	}
+}
+
